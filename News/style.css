@@ -1,0 +1,448 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+#container{
+
+}
+
+#header{
+
+}
+
+#masthead{
+    width: 100%;
+    height:90px;
+    background-color: #333333;
+    padding: 0 102px;
+}
+
+#in-masthead{
+    width: 1270px;
+    height: 90px;
+    display: flex;
+    padding: 0 15px;
+}
+
+#in-masthead .logo{
+    width: 168px;
+    height: 90px;
+    padding-top: 20px;
+}
+
+#in-masthead .logo img{
+    width: 168px;
+    height: 48px;
+}
+
+#in-masthead .middle-block{
+    display: flex;
+    width: 999px;
+    height: 90px;
+    margin-left: 25px;
+    margin-right: 10px;
+    /* padding-top: 25px; */
+    align-items: center;
+    line-height: 25.6px;
+}
+
+#in-masthead .middle-block div{
+    display: flex;
+    color: white;
+    /* margin: 0 5px; */
+}
+
+#in-masthead .middle-block .search-box{
+    width: 432px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+#in-masthead .middle-block .search-box input{
+    width: 382px;
+    height: 40px;
+    color: #333333;
+    padding: 0 11px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    border: none;
+    border-radius:5px 0 0 5px;
+
+}
+
+#in-masthead .middle-block .search-box button{
+    width: 50px;
+    height: 40px;
+    background-color:#ffd21c;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+
+#in-masthead .middle-block .discount{
+    width: 152px;
+    height: 50px;
+    margin-right: 10px;
+    padding-top: 5px;
+}
+
+#in-masthead .middle-block .discount div{
+    width: 40px;
+    height: 43px;
+}
+
+#in-masthead .middle-block .discount img{
+    width: 33px;
+    height: 33px;
+}
+
+#in-masthead .middle-block .discount p{
+    width: 107px;
+    height: 43px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    line-height: 20.8px;
+}
+
+#in-masthead .middle-block .hotline{
+    width: 192px;
+    height: 50px;
+}
+
+#in-masthead .middle-block .hotline img{
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+}
+
+#in-masthead .middle-block .hotline p{
+    width: 152px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    line-height: 20.8px;
+}
+
+#in-masthead .middle-block .hotline span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 28.8px;
+}
+
+#in-masthead .cart{
+    width: 40px;
+    height: 90px;
+}
+
+#in-masthead .cart button{
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+    background-color:  #333333;
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+
+#menu{
+    width: 1473px;
+    height: 51px;
+}
+
+#menu .list-menu{
+    width: 1270px;
+    height: 51px;
+    padding: 0 15px;
+    margin: 0 102px;
+}
+
+#menu .list-menu>ul{
+    display: flex;
+    list-style: none;
+    color: black;
+}
+
+#menu .list-menu>ul>li{
+    height: 51px;
+    padding: 10px 16px 10px 16px;
+    position: relative;
+}
+
+#menu .list-menu>ul>li>a{
+    display: block;
+    width: 100%;
+    height: 51px;
+}
+
+#menu .list-menu li:hover{
+    background-color: #ffd21c;
+}
+
+#menu .list-menu>ul>li>ul{
+    display:none;
+    width: 250px;
+    top: 51px;
+    list-style: none;
+    background-color: #fff;
+    box-shadow: #000000 1px 1px 15px 0;
+    padding:  10px 0;
+    margin-left: -16px;
+    position: absolute;
+    top: 51px;
+}
+
+#menu .list-menu>ul>li>ul>li{
+    height: 35px;
+    padding-left: 16px;
+}
+
+#menu .list-menu a{
+    width: 100%;
+    line-height: 35px;
+    transition: all 0.2s ease;
+}
+
+#menu .list-menu>ul>li>ul>li:hover{
+    background-color: #eeeeee;
+}
+
+#menu .list-menu>ul>li>ul>li:hover>a{
+    color: #ffcf3d;
+    padding-left: 10px;
+}
+
+#menu .list-menu>ul>li:hover>ul{
+    display:block;
+}
+
+#menu .list-menu a{
+    line-height: 30px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#content{
+    width: 1473px;
+    height: auto;
+    padding: 30px 116px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#content .content-title{
+    width: 1240px;
+    height: 80px;
+    padding:  0 135px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+#content .title{
+    color: #333333;
+    line-height: 25.6px;
+    margin-bottom: 5px;
+}
+
+#content .title a{
+    color: #333333;
+    line-height: 25.6px;
+}
+
+#content .title a:hover{
+    color: #eeda1f;
+}
+
+#content .content-title>p{
+    color: #262626;
+    font-size: 27.2px;
+    font-weight: 700;
+    line-height: 32.64px;
+    margin-bottom: 30px;
+}
+
+#content .content-info{
+    width: 1270px;
+    height: 1230px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content-info .new{
+    width: 423px;
+    height: 400px;
+    padding: 0 15px 30px;
+}
+
+.content-info .new .img{
+    width: 393px;
+    height: 220px;
+}
+
+.content-info .new .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.content-info .new .text{
+    width: 393px;
+    height: 159px;
+    text-align: left;
+}
+
+.content-info .new .text a{
+    color: #262626;
+}
+
+.content-info .new .text h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    margin: 1px 0 10px 0;
+}
+
+.content-info .new .text p{
+    color: #2f2f2f;
+    font-size: 14.4px;
+    line-height: 23.4px;
+}
+
+#footer{
+
+}
+
+#footer #commit{
+    width: 1473px;
+    height: 91px;
+    line-height: 25.6px;
+    border-top: 1px solid #ccc;
+}
+
+#footer #commit .commit-content{
+    display: flex;
+    width: 1473px;
+    height: 51px;
+    padding: 0 102px;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+
+#footer #commit .commit-content>div{
+    display: flex;
+    width: 423px;
+    height: 51px;
+    padding-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#footer #commit .commit-content .img{
+    width: 60px;
+    height: 60px;
+    background-color: #f7d835;
+    border-radius: 50px;
+    text-align: center;
+}
+
+
+#footer #commit .commit-content .img img{
+    width: 34px;
+    height: 34px;
+    margin-top: 12px;
+}
+
+#footer #commit .commit-content .text{
+    padding-left: 15px;
+}
+
+#footer #commit .commit-content .text h3{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 27.2px;
+}
+
+#footer #commit .commit-content .text p{
+    font-size: 15px;
+    line-height: 24px;
+}
+
+#footer #footer-contact{
+    width: 1473px;
+    height: 299px;
+    padding: 35px 0 45px;
+    background-color: #efefef;
+}
+
+#footer #footer-contact .footer-contact-content{
+    display: flex;
+    width: 1473px;
+    height: 219px;
+    padding: 0 102px;
+}
+
+#footer #footer-contact .footer-contact-content .box{
+    padding: 0 9px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#footer #footer-contact .footer-contact-content .box h3{
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    line-height: 27.2px;
+}
+
+#footer #footer-contact .footer-contact-content .box li{
+    list-style: none;
+    line-height: 25.6px;
+    margin-bottom: 4px;
+}
+
+#footer #footer-contact .footer-contact-content .box li a{
+    color: #333333;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+#footer #footer-contact .footer-contact-content .box1{
+    width: 316px;
+    height: 219px;
+}
+
+#footer #footer-contact .footer-contact-content .box1 p{
+    margin-bottom: 20px;
+}
+
+#footer #footer-contact .footer-contact-content .box1 span{
+    line-height: 24.32px;
+}
+
+#footer #footer-contact .footer-contact-content .box1 img{
+    width: 154px;
+    height: 44px;
+}
+
+#footer #footer-contact .footer-contact-content .box2{
+    width: 316px;
+    height:219px;
+}
+
+#footer #footer-contact .footer-contact-content .box3{
+    width: 316px;
+    height: 219px;
+}
+
+#footer #footer-contact .footer-contact-content .box4{
+    width: 316px;
+    height: 219px;
+}
